@@ -1,0 +1,16 @@
+.footer-container {
+  background-color: #cbd5e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 45px;
+}
+.footer-heading {
+  color: #475569;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-container {
+    min-width: 280px;
+  }
+}
